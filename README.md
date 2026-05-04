@@ -25,6 +25,7 @@ Key columns include:
 - Purpose
 
 ## Data Cleaning Methodology
+
 1. Objective
 
 The dataset was cleaned using Python to ensure consistency, accuracy, and readiness for analysis.
