@@ -53,3 +53,21 @@ The column was converted from string to integer type to enable numerical analysi
 3. Outcome
 
 After cleaning, the dataset became structured, consistent, and suitable for analysis and modelling.
+
+## Key Findings
+-The dataset is complete after preprocessing, with no missing values across all variables, indicating that all necessary data cleaning steps have been successfully applied.
+
+-Most borrowers have strong employment history, with 10+ years in current job being the most common group, suggesting a generally stable workforce.
+
+-Loan performance shows that 77% of loans are fully paid, while 23% are charged off, indicating a relatively strong repayment rate with some level of credit risk.
+
+-Credit scores are mostly concentrated within a moderate range (approximately 585 to 751), showing that borrowers generally fall within mid to good credit profiles.
+
+-Borrowers with fully paid loans have slightly higher average annual income compared to those with charged-off loans, suggesting income has some influence on repayment behaviour but is not the only factor.
+
+-Some inconsistencies were observed in credit score aggregation results, indicating that further validation may be required to ensure full data accuracy.
+
+## Conclusion
+
+Overall, the analysis shows that the loan portfolio is relatively stable, with a high proportion of successfully repaid loans and a borrower base that is generally experienced and financially active. However, the presence of charged-off loans highlights existing credit risk that should be monitored. While income and employment history provide useful indicators, they do not fully explain repayment outcomes, suggesting that other factors also influence loan performance.
+
