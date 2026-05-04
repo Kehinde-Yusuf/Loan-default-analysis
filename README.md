@@ -23,3 +23,31 @@ Key columns include:
 - Years in Current Job
 - Home Ownership
 - Purpose
+
+## Data Cleaning Methodology
+1. Objective
+
+The dataset was cleaned using Python to ensure consistency, accuracy, and readiness for analysis.
+
+2. Cleaning Steps
+2.1 Removal of Text from Numerical Fields
+
+The “Years in current job” column contained mixed formats such as “10+ years”, “3 years”, and “< 1”.
+All text elements like “years”, “year”, and “+” were removed to retain only numeric values.
+
+2.2 Handling Special Values
+
+The value “< 1” was replaced with 0 to maintain consistency and ensure all values are numeric.
+
+2.3 Handling Missing Values
+
+Missing values (NaN) in the column were replaced with 0 using fillna().
+This ensured completeness of the dataset and allowed all records to be included in the analysis.
+
+2.4 Data Type Conversion
+
+The column was converted from string to integer type to enable numerical analysis and calculations.
+
+3. Outcome
+
+After cleaning, the dataset became structured, consistent, and suitable for analysis and modelling.
