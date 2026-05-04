@@ -31,6 +31,7 @@ Key columns include:
 The dataset was cleaned using Python to ensure consistency, accuracy, and readiness for analysis.
 
 2. Cleaning Steps
+   
 2.1 Removal of Text from Numerical Fields
 
 The “Years in current job” column contained mixed formats such as “10+ years”, “3 years”, and “< 1”.
